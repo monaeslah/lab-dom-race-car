@@ -7,7 +7,6 @@ window.onload = function () {
   startButton.addEventListener('click', function () {
     startGame()
     window.addEventListener('keydown', handleKeyInputs)
-    restartButton.addEventListener('click', () => location.reload())
   })
 
   function startGame () {

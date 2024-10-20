@@ -8,9 +8,9 @@ body {
 }
 
 #game-container {
-  display: flex;
+  display: none;
   width: 100vw;
-  padding: 20px 0px;
+  padding: 20px;
   justify-content: center;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana";
+  font-family: 'Verdana';
 }
 
 .logo-img {
